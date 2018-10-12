@@ -1,11 +1,14 @@
 void setup()
 {
-  size(100,100);
+  size(1365, 1300);
 }
 void draw()
 {
-  ellipse(50,50,50,50);
+  noFill();
+  stroke(random(266),random(266), random(266));
+  strokeWeight(10);
+  ellipse(random(1365), random(1365), random(1365), random(1365));
+  frameRate(999999999.99);
+
+triangle(random(1365), random(1365), random(1365), random(1365), random(1365), random(1365));
 }
-
-
-
